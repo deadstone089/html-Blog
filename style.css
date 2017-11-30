@@ -1,0 +1,178 @@
+html{
+   font-size: 16px;
+   
+}
+
+header.hone{
+   color: #9932CC;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 50px;
+   font-style: none;
+}
+
+header.hone a{
+   color: MediumSeaGreen;
+}
+
+nav{
+   padding: 40px;
+   color: DodgerBlue;
+   font:20;
+}
+
+ul{
+   list-style-type: none;
+   font-sizee: 20px;
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+    text-align: center;
+}
+
+li{
+   float: left;
+   padding:10px;
+}
+
+li a{
+    display: block;
+
+    text-align: center;
+    text-decoration: underline;
+}
+
+li.current{
+   background-color: Dodgerblue;
+   
+   color: white;
+}
+
+li a:hover {
+    color: Dodgerblue;
+}
+
+section{
+    position: relatie;
+    float: left;
+    width: 75%;
+}
+
+header.h2{
+    font-size: 35px;
+    color: Darkblue;
+}
+
+article.a1,article.a2{
+    padding :35px;
+    float: left;
+    position: relative;
+}
+
+aside{
+   float: right;
+}
+
+div{
+   color: #00008B;
+}
+
+header.h2 a:link {
+    color: #00008B;
+}
+
+header.h2 a:hover {
+   color: #1E90FF;
+}
+
+aside {
+    float: right;
+    padding: 70px 0 30px;
+    position: relative;
+    width: 25%
+}
+	
+aside h1 {
+    color: #888;
+    font-size: 1.8em
+}
+
+aside .tag-cloud {
+    padding: 15px 35px 10px 0;
+    text-align: center
+}
+
+aside .tag-cloud li {
+    display: inline
+}
+
+aside .tag-cloud a {
+    color: #69a
+}
+
+aside .tag-cloud a:hover {
+    color: #a67
+}
+				
+aside .tag-cloud .w1 {
+    font-size: .8em
+}
+
+aside .tag-cloud .w2 {
+    font-size: 1em
+}
+				
+aside .tag-cloud .w3 {
+    font-size: 1.1em
+}
+
+aside .tag-cloud .w4 {
+    font-size: 1.2em
+}
+			
+aside .tag-cloud .w5 {
+    font-size: 1.3em
+}
+				
+aside .tag-cloud .w6 {
+    font-size: 1.4em
+}
+				aside .tag-cloud .w7 {
+					font-size: 1.5em
+				}
+				aside .tag-cloud .w8 {
+					font-size: 1.6em
+				}
+				aside .tag-cloud .w9 {
+					font-size: 1.8em
+				}
+				aside .tag-cloud .w10 {
+					font-size: 2em
+				}
+            figcaption {
+                font-style:italic;
+                font-size: 0.8em;
+                width: 100%
+            }
+
+			footer {
+				clear: both;
+				color: #777;
+				padding: 10px 50px
+			}
+
+			header:hover, 
+			nav:hover, 
+			section:hover, 
+			aside:hover, 
+			footer:hover {
+				background: #eee
+			}
+			article:hover {
+				background: #ccc
+			}
+			article header:hover {
+				background: #ccc
+			}
